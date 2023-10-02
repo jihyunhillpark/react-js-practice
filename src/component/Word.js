@@ -17,12 +17,11 @@ export default function Word({ word: w }) {
                 ...word,
                 isDone: !isDone
             }),
+        }).then(res => {
+            if (res.ok) {
+                setIsDone(!isDone);
+            }
         })
-            .then(res => {
-                if (res.ok) {
-                    setIsDone(!isDone);
-                }
-            })
     }
 
     function del() {
