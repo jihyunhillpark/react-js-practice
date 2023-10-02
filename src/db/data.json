@@ -80,6 +80,27 @@
       "kor": "원숭이",
       "isDone": false,
       "id": 9
+    },
+    {
+      "day": "1",
+      "eng": "banana",
+      "kor": "바나나",
+      "isDone": false,
+      "id": 10
+    },
+    {
+      "day": "1",
+      "eng": "kiwi",
+      "kor": "키위",
+      "isDone": false,
+      "id": 11
+    },
+    {
+      "day": "2",
+      "eng": "day",
+      "kor": "날, 일",
+      "isDone": false,
+      "id": 12
     }
   ]
 }
